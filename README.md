@@ -1,5 +1,11 @@
 # Offline-First User Journey & Analytics Portal
 
+This is a fullstack MERN project with separate client and server folders under `admin/`. The project includes:
+
+- A **root-level** frontend (could be a landing page or main app)
+- An **admin panel** client (`admin/client`)
+- An **admin server** backend (`admin/server`)
+
 ## Overview
 
 This project is an **Offline-First User Journey & Analytics Portal** built using the **MERN stack** with **Next.js** for the frontend. It allows tracking and recording of user activities on a website **regardless of internet connectivity**. The core goal is to ensure that **user activity data is not lost even when offline**, and is reliably synchronized to the server once the internet connection is restored.
