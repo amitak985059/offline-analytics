@@ -118,20 +118,6 @@ Add end-to-end encryption for user data.
 
 
 
-<!-- this will be modified later -->
-# Clone repository
-git clone https://github.com/yourusername/offline-analytics-portal.git
-
-# Navigate to client and install
-cd client && npm install
-
-# Navigate to server and install
-cd ../server && npm install
-
-# Start development
-npm run dev  # From both client and server folders
-
-
 # 📡 API Documentation
 
 ## 🔗 Base URL
