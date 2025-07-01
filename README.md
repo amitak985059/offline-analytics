@@ -5,6 +5,52 @@ This is a fullstack MERN project with separate client and server folders under `
 - A **root-level** frontend (could be a landing page or main app)
 - An **admin panel** client (`admin/client`)
 - An **admin server** backend (`admin/server`)
+<!--  -->
+
+
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/amitak985059/offline-analytics.git
+cd offline-analytics
+
+npm install
+cd admin/client
+npm install
+cd ../server
+npm install
+
+# env 
+Create .env.local
+MONGODB_URI=mongodb://localhost:27017/logging
+
+Terminal 1 (Root Frontend)
+npm run dev
+Terminal 2 (Admin Client)
+cd admin/client
+npm run dev
+Terminal 3 (Admin Server)
+cd admin/server
+npx nodemon index.js
+
+
+.
+├── admin
+│   ├── client       # React Admin Frontend
+│   └── server       # Node.js + Express Backend
+├── public/
+├── .env.local
+├── package.json
+└── README.md
+
+
+# 
+```
 
 ## Overview
 
