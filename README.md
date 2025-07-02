@@ -82,7 +82,7 @@ This project solves the problem of **reliable user activity tracking** in both *
 -  **Analytics portal**: View user journey timelines and behavioral stats.
 -  **Seamless UX**: No disruption to users during connectivity loss.
 
-##  Key Flow Diagram
+
 
 ##  Example Use Cases
 A user clicks through a multi-step form while offline — all steps are stored.
